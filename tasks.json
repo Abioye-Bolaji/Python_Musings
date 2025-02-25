@@ -1,0 +1,22 @@
+[
+    {
+        "Task": "Wash Car",
+        "completed": true
+    },
+    {
+        "Task": "Do Laundry",
+        "completed": true
+    },
+    {
+        "Task": "Pick kids up",
+        "completed": false
+    },
+    {
+        "Task": "Call mom",
+        "completed": false
+    },
+    {
+        "Task": "Pay electric bill",
+        "completed": true
+    }
+]
