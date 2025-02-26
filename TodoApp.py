@@ -46,7 +46,7 @@ class Todo_App:
         except FileNotFoundError:
             self.tasks = []
 
-# Creating the GUI using Tkinter    
+# Creating the GUI using Tkinter and creating the corresponding functions    
 def add_task():
     task = task_entry.get()
     if task:
