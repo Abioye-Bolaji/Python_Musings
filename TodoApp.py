@@ -1,3 +1,4 @@
+#Importing the required libraries
 import tkinter as tk
 from tkinter import messagebox
 import json
@@ -6,13 +7,14 @@ class Todo_App:
     def __init__(self):
         self.tasks = []
 
+# Defining the logic and creating the class' objects for the app
     def create_task(self, task):
-        """Adds a new task to your list"""
+        """Creates a new task to your list"""
         self.tasks.append({"Task": task, "completed": False})
     
     def remove_task(self, index):
         """Removes a task from your list"""
-        if 0 <= index < len(self.tasks):
+        if 0 <= index < len(self.tasks): # Ensures index is valid
             self.tasks.pop(index)
 
     def get_tasks(self):
@@ -24,6 +26,7 @@ class Todo_App:
         if 0 <= index < len(self.tasks):
             self.tasks[index]["Task"] = new_task
 
+#JSON File is created and used to store the tasks to be able to carry out these functions
     def toggle_task_completion(self, index):
         """Marks a task completed or uncompleted"""
         if 0 <= index < len(self.tasks):
@@ -43,6 +46,7 @@ class Todo_App:
         except FileNotFoundError:
             self.tasks = []
 
+# Creating the GUI using Tkinter    
 def add_task():
     task = task_entry.get()
     if task:
@@ -86,6 +90,8 @@ def toggle_completion():
     except IndexError:
         messagebox.showwarning("Warning", "Select a task to mark as completed")
 
+
+# Creating Buttons and Entry fields for the GUI
 root = tk.Tk()
 root.title("Todo App")
 
