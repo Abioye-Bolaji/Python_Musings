@@ -1,3 +1,5 @@
+# Defining Arithmetic Operations
+
 def add(x, y):
     return x + y
 
@@ -19,7 +21,7 @@ print("2. Subtraction (-)")
 print("3. Multiplication (*)")
 print("4. Division (/)")
 
-invalid_response_count = 0
+invalid_response_count = 0 #Initializing the count of invalid responses to 0
 
 while True:
     choice = input("Enter your desired number (1/2/3/4) or 'Q' to quit: ").strip()
