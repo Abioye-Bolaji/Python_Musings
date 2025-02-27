@@ -1,2 +1,2 @@
 # CODSOFT
- Python Training
+ Python Internship
