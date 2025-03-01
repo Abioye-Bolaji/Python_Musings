@@ -33,5 +33,5 @@ More projects will be added as I continue to explore Python and push my limits! 
 Collaborations, Suggestions, issues, and contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ---
-
+You can give this Repo a star⭐ if you find it useful!
 🔹 **Happy Coding!** 🎯
