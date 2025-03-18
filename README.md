@@ -13,6 +13,7 @@ Python Musings is a collection of projects that showcase the versatility of Pyth
 | **Smackdown_CalcApp** | A command-line calculator for performing various arithmetic operations. |
 | **Smackdown_password_generator** | A Python script to generate strong, random passwords. |
 | **TodoApp** | A simple to-do list application to manage tasks efficiently. |
+| **Binary Classification Model** | A Binary classification model for predicting used car purchase based on different features. |
 
 More projects will be added as I continue to explore Python and push my limits! 🚀
 
